@@ -30,3 +30,5 @@
     }
     
  对状态栏的控制需要导入依赖库： implementation 'com.gyf.barlibrary:barlibrary:2.3.0'
+ 
+ 二、一个通用的混淆模板
