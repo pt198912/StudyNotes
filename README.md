@@ -36,3 +36,6 @@
  三、关于android性能、架构和技术问题的探索
  https://www.jianshu.com/p/69141aa52f34
  
+ 四、android开发的新技术小结
+ https://www.zhihu.com/question/32037895
+ 
