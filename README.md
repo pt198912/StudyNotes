@@ -32,3 +32,6 @@
  对状态栏的控制需要导入依赖库： implementation 'com.gyf.barlibrary:barlibrary:2.3.0'
  
  二、一个通用的混淆模板
+ 三、关于android性能、架构和技术问题的探索
+ https://www.jianshu.com/p/69141aa52f34
+ 
