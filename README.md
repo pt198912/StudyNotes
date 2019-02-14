@@ -39,3 +39,5 @@
  四、android开发的新技术小结
  https://www.zhihu.com/question/32037895
  
+五、MVC、MVP、MVVM三种区别及适用场合
+https://blog.csdn.net/victoryzn/article/details/78392128
