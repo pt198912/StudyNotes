@@ -41,3 +41,6 @@
  
 五、MVC、MVP、MVVM三种区别及适用场合
 https://blog.csdn.net/victoryzn/article/details/78392128
+
+六、MAT内存分析使用
+https://blog.csdn.net/itachi85/article/details/77075455
