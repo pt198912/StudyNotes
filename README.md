@@ -47,3 +47,6 @@ https://blog.csdn.net/itachi85/article/details/77075455
 
 七、高效开发 MVVM 和 databinding 你需要使用的工具
 https://juejin.im/post/59ffde2b6fb9a044fe45c03e
+
+八、MVVMHabit 基于谷歌最新AAC架构，MVVM设计模式的一套快速开发库，整合Okhttp+RxJava+Retrofit+Glide等主流模块，满足日常开发需求。使用该框架可以快速开发一个高质量、易维护的Android应用。
+https://github.com/goldze/MVVMHabit
