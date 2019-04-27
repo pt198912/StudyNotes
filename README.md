@@ -44,3 +44,6 @@ https://blog.csdn.net/victoryzn/article/details/78392128
 
 六、MAT内存分析使用
 https://blog.csdn.net/itachi85/article/details/77075455
+
+七、高效开发 MVVM 和 databinding 你需要使用的工具
+https://juejin.im/post/59ffde2b6fb9a044fe45c03e
