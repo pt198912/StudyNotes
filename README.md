@@ -53,6 +53,7 @@ https://github.com/goldze/MVVMHabit
 
 九、安卓语言设置
 通过NewTask启动的activity语言设置不会生效，所以最好的办法就是在BaseActivity的onCreate方法主动设置一次语言
+
  public static void setLanguage(Context context,Locale language,String lanCode){
         forceLocale(context,language);
         MyApplication.getInstance().setLanguage(language);
@@ -96,7 +97,8 @@ https://github.com/goldze/MVVMHabit
     public static final String ID_INDONESIA="in_ID";
     public static final String ID_VIETNAM="vi_VN";
     
-    十、阴影的显示
+十、阴影的显示
+    
     <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
 
