@@ -145,3 +145,6 @@ https://github.com/goldze/MVVMHabit
 
 </layer-list>
 
+十一、android studio中ndk的配置（javah,ndk-build的配置）
+
+https://blog.csdn.net/chenhuakang/article/details/79066342
