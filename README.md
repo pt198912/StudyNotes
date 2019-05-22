@@ -151,34 +151,35 @@ https://www.jianshu.com/p/2b29fa617b8d
 
 十二、JNI中java和C字符串的相互转换（防止乱码）
 
-extern "C" jstring convertToJstr(JNIEnv* env,const char* c_str){
-    // 1. 先获取String的jclass
-    jclass cls_string = env->FindClass("java/lang/String");
-    // 2. 获取构造函数的jmethodID
-    jmethodID mid_constructor = env->GetMethodID(cls_string, "<init>","([BLjava/lang/String;)V");
-    // 3. new一个String对象
-    // 创建一个jbyteArray变量
-    // 字节数组里是一个个的字节byte即jbyte，
-    // jbyte又是signed char的别名，说明jbyte其实就是char字符
-    // 那么char* 字符串就是char字符的集合，即jbyte的集合，就是jbyteArray
-    jbyteArray bytes = env->NewByteArray(strlen(c_str));
-    env->SetByteArrayRegion(bytes, 0, strlen(c_str), (jbyte*)c_str);
+    extern "C" jstring convertToJstr(JNIEnv* env,const char* c_str){
 
-    jstring jstr_charset = env->NewStringUTF("UTF-8");
-    return (jstring)env->NewObject( cls_string, mid_constructor,
-                                    bytes, jstr_charset);
+        // 1. 先获取String的jclass
+        jclass cls_string = env->FindClass("java/lang/String");
+        // 2. 获取构造函数的jmethodID
+        jmethodID mid_constructor = env->GetMethodID(cls_string, "<init>","([BLjava/lang/String;)V");
+        // 3. new一个String对象
+        // 创建一个jbyteArray变量
+        // 字节数组里是一个个的字节byte即jbyte，
+        // jbyte又是signed char的别名，说明jbyte其实就是char字符
+        // 那么char* 字符串就是char字符的集合，即jbyte的集合，就是jbyteArray
+        jbyteArray bytes = env->NewByteArray(strlen(c_str));
+        env->SetByteArrayRegion(bytes, 0, strlen(c_str), (jbyte*)c_str);
 
-}
-extern "C" JNIEXPORT jstring JNICALL
-Java_com_example_myapplication_MainActivity_dataConvert(
-        JNIEnv* env,
-        jobject /* this */,
-        jstring jstr) {
-    char* bytes=(char*)env->GetStringUTFChars(jstr,JNI_FALSE);
-    size_t len=strlen(bytes);
-    __android_log_print(ANDROID_LOG_DEBUG,"pengtao","strlen:%d",len);
-    __android_log_print(ANDROID_LOG_DEBUG,"pengtao","INFO:%s,length:%d",bytes,len);
-    jstring res=convertToJstr(env,bytes);
-    env->ReleaseStringUTFChars(jstr,bytes);
-    return res;
-}
+        jstring jstr_charset = env->NewStringUTF("UTF-8");
+        return (jstring)env->NewObject( cls_string, mid_constructor,
+                                        bytes, jstr_charset);
+
+    }
+    extern "C" JNIEXPORT jstring JNICALL
+    Java_com_example_myapplication_MainActivity_dataConvert(
+            JNIEnv* env,
+            jobject /* this */,
+            jstring jstr) {
+        char* bytes=(char*)env->GetStringUTFChars(jstr,JNI_FALSE);
+        size_t len=strlen(bytes);
+        __android_log_print(ANDROID_LOG_DEBUG,"pengtao","strlen:%d",len);
+        __android_log_print(ANDROID_LOG_DEBUG,"pengtao","INFO:%s,length:%d",bytes,len);
+        jstring res=convertToJstr(env,bytes);
+        env->ReleaseStringUTFChars(jstr,bytes);
+        return res;
+    }
