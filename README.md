@@ -185,3 +185,5 @@ https://www.jianshu.com/p/2b29fa617b8d
     }
     
     十三、图像处理Android-GPUImage-Plus
+    
+    十四、多个recycleview嵌套时宽度显示不全，重新设置一次LayoutParams.MATCH_PARENT即可；多个Recycleview嵌套，第一个item不置顶，只需在recycleview的上层布局或根布局设置android:focusInTouchMode="true"即可
