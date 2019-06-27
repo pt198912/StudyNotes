@@ -189,3 +189,5 @@ https://www.jianshu.com/p/2b29fa617b8d
     十四、多个recycleview嵌套时宽度显示不全，重新设置一次LayoutParams.MATCH_PARENT即可；多个Recycleview嵌套，第一个item不置顶，只需在recycleview的上层布局或根布局设置android:focusInTouchMode="true"即可
     
     十五、learnopencv一个好的C++ and python Excmples
+    
+    十六、C++小demo:github项目名称cpp1x-study-resource
