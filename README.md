@@ -191,3 +191,44 @@ https://www.jianshu.com/p/2b29fa617b8d
     十五、learnopencv一个好的C++ and python Excmples
     
     十六、C++小demo:github项目名称cpp1x-study-resource
+
+    十七、自定义progressbar的背景
+    <?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@android:id/background">
+           
+    <shape>
+        <corners android:radius="7dp" />
+        <gradient
+            android:angle="0"
+            android:endColor="#FFDCC7"
+            android:startColor="#FFDCC7" />
+    </shape>
+       
+</item>
+    <item android:id="@android:id/secondaryProgress">
+            <scale android:scaleWidth="100%">
+                 <shape>
+                    <corners android:radius="7dp"/>
+                    <gradient android:angle="0"
+                        android:startColor="#fc4a1a"
+                        android:endColor="#f58019"
+                        android:type="linear"/>
+                </shape>
+            </scale>
+        </item>
+     <item android:id="@android:id/progress">
+             <scale android:scaleWidth="100%">
+                  <shape>
+                    <corners android:radius="7dp"/>
+                    <gradient android:angle="0"
+                        android:startColor="#fc4a1a"
+                        android:endColor="#f58019"
+                        android:type="linear"/>
+                </shape>
+            </scale>
+        </item>
+
+
+</layer-list>
+
