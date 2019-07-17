@@ -293,3 +293,7 @@ https://www.jianshu.com/p/2b29fa617b8d
  十九、22个值得收藏的android开源代码-UI篇
  
  http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2014/1020/1808.html
+ 
+ 二十、安卓组件化开发
+ 
+ https://www.jianshu.com/p/bfd5afed498f
