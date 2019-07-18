@@ -297,3 +297,9 @@ https://www.jianshu.com/p/2b29fa617b8d
  二十、安卓组件化开发
  
  https://www.jianshu.com/p/bfd5afed498f
+
+二十一、使用ImmersionBar后如何让软键盘弹出时将布局顶起来：
+
+    mImmersionBar.keyboardEnable(true).keyboardMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE)
+                .transparentStatusBar().statusBarDarkFont(true,0.2f)
+                .init();
