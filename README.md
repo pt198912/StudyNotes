@@ -303,3 +303,7 @@ https://www.jianshu.com/p/2b29fa617b8d
     mImmersionBar.keyboardEnable(true).keyboardMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE)
                 .transparentStatusBar().statusBarDarkFont(true,0.2f)
                 .init();
+                
+二十二、《安卓-深入浅出MVVM教程》应用篇
+
+https://mp.weixin.qq.com/s/TXJ-cZbUxIKhe89YjyxGZw?
