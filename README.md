@@ -197,16 +197,14 @@ https://github.com/goldze/MVVMHabit
   
     <?xml version="1.0" encoding="utf-8"?>
     <layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
-    <item android:id="@android:id/background">
-           
+    <item android:id="@android:id/background">     
     <shape>
         <corners android:radius="7dp" />
         <gradient
             android:angle="0"
             android:endColor="#FFDCC7"
             android:startColor="#FFDCC7" />
-    </shape>
-       
+    </shape>    
     </item>
         <item android:id="@android:id/secondaryProgress">
                 <scale android:scaleWidth="100%">
@@ -230,8 +228,6 @@ https://github.com/goldze/MVVMHabit
                     </shape>
                 </scale>
             </item>
-
-
     </layer-list>
 
 十八、activity点击空白处隐藏软键盘：在BaseActivity中加入统一处理
