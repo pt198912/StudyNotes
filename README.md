@@ -1,33 +1,34 @@
 # StudyNotes
 一.防止部分手机虚拟键遮挡
-  fullScreen();
-  if (TranslucentNavigationUtils.checkDeviceHasNavigationBar(this)) {
-      //防止虚拟键遮挡布局
-     TranslucentNavigationUtils.assistActivity(findViewById(android.R.id.content));
-  }
- 
-  
-   public void fullScreen(){
-        if(null==mImmersionBar){
-            mImmersionBar = ImmersionBar.with(this);
-        }
-        mImmersionBar.statusBarColor(R.color.white)
-                .transparentStatusBar()   //状态栏字体是深色，不写默认为亮色
-                .fullScreen(true)
-                .init();
-    }
-    private void initImmersinaBar(){
-     mImmersionBar = ImmersionBar.with(this);
-        if(Build.VERSION.SDK_INT<=Build.VERSION_CODES.KITKAT){
-            mImmersionBar.statusBarDarkFont(true,0.2f);  //状态栏字体是深色，不写默认为亮色
-        }else{
-            mImmersionBar.statusBarDarkFont(true);
-        }
-        mImmersionBar.statusBarColor(R.color.white)
-                .transparentNavigationBar()
-                .flymeOSStatusBarFontColor(R.color.black)  //修改flyme OS状态栏字体颜色
-                .init();
-    }
+
+     fullScreen();
+     if (TranslucentNavigationUtils.checkDeviceHasNavigationBar(this)) {
+        //防止虚拟键遮挡布局
+       TranslucentNavigationUtils.assistActivity(findViewById(android.R.id.content));
+     }
+
+
+     public void fullScreen(){
+          if(null==mImmersionBar){
+              mImmersionBar = ImmersionBar.with(this);
+          }
+          mImmersionBar.statusBarColor(R.color.white)
+                  .transparentStatusBar()   //状态栏字体是深色，不写默认为亮色
+                  .fullScreen(true)
+                  .init();
+      }
+      private void initImmersinaBar(){
+       mImmersionBar = ImmersionBar.with(this);
+          if(Build.VERSION.SDK_INT<=Build.VERSION_CODES.KITKAT){
+              mImmersionBar.statusBarDarkFont(true,0.2f);  //状态栏字体是深色，不写默认为亮色
+          }else{
+              mImmersionBar.statusBarDarkFont(true);
+          }
+          mImmersionBar.statusBarColor(R.color.white)
+                  .transparentNavigationBar()
+                  .flymeOSStatusBarFontColor(R.color.black)  //修改flyme OS状态栏字体颜色
+                  .init();
+      }
     
  对状态栏的控制需要导入依赖库： implementation 'com.gyf.barlibrary:barlibrary:2.3.0'
  
@@ -54,7 +55,7 @@ https://github.com/goldze/MVVMHabit
 九、安卓语言设置
 通过NewTask启动的activity语言设置不会生效，所以最好的办法就是在BaseActivity的onCreate方法主动设置一次语言
 
- public static void setLanguage(Context context,Locale language,String lanCode){
+    public static void setLanguage(Context context,Locale language,String lanCode){
         forceLocale(context,language);
         MyApplication.getInstance().setLanguage(language);
         Log.d(TAG, "setLanguage: "+language.toString());
@@ -100,7 +101,7 @@ https://github.com/goldze/MVVMHabit
 十、阴影的显示
     
     <?xml version="1.0" encoding="utf-8"?>
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <!-- 阴影 -->
 
@@ -143,7 +144,7 @@ https://github.com/goldze/MVVMHabit
         </shape>
     </item>
 
-</layer-list>
+    </layer-list>
 
 十一、android studio中ndk的配置（javah,ndk-build的配置）
 
@@ -194,7 +195,7 @@ https://www.jianshu.com/p/2b29fa617b8d
 
     十七、自定义progressbar的背景
     <?xml version="1.0" encoding="utf-8"?>
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
     <item android:id="@android:id/background">
            
     <shape>
@@ -205,37 +206,37 @@ https://www.jianshu.com/p/2b29fa617b8d
             android:startColor="#FFDCC7" />
     </shape>
        
-</item>
-    <item android:id="@android:id/secondaryProgress">
-            <scale android:scaleWidth="100%">
-                 <shape>
-                    <corners android:radius="7dp"/>
-                    <gradient android:angle="0"
-                        android:startColor="#fc4a1a"
-                        android:endColor="#f58019"
-                        android:type="linear"/>
-                </shape>
-            </scale>
-        </item>
-     <item android:id="@android:id/progress">
-             <scale android:scaleWidth="100%">
-                  <shape>
-                    <corners android:radius="7dp"/>
-                    <gradient android:angle="0"
-                        android:startColor="#fc4a1a"
-                        android:endColor="#f58019"
-                        android:type="linear"/>
-                </shape>
-            </scale>
-        </item>
+    </item>
+        <item android:id="@android:id/secondaryProgress">
+                <scale android:scaleWidth="100%">
+                     <shape>
+                        <corners android:radius="7dp"/>
+                        <gradient android:angle="0"
+                            android:startColor="#fc4a1a"
+                            android:endColor="#f58019"
+                            android:type="linear"/>
+                    </shape>
+                </scale>
+            </item>
+         <item android:id="@android:id/progress">
+                 <scale android:scaleWidth="100%">
+                      <shape>
+                        <corners android:radius="7dp"/>
+                        <gradient android:angle="0"
+                            android:startColor="#fc4a1a"
+                            android:endColor="#f58019"
+                            android:type="linear"/>
+                    </shape>
+                </scale>
+            </item>
 
 
-</layer-list>
+    </layer-list>
 
 十八、activity点击空白处隐藏软键盘：在BaseActivity中加入统一处理
 
- @Override
-    public boolean dispatchTouchEvent(MotionEvent ev) {
+     @Override
+      public boolean dispatchTouchEvent(MotionEvent ev) {
         if (ev.getAction() == MotionEvent.ACTION_DOWN) {
             // 获得当前得到焦点的View，一般情况下就是EditText（特殊情况就是轨迹求或者实体案件会移动焦点）
             View v = getCurrentFocus();
