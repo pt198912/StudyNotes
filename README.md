@@ -148,7 +148,7 @@ https://github.com/goldze/MVVMHabit
 
 十一、android studio中ndk的配置（javah,ndk-build的配置）
 
-https://www.jianshu.com/p/2b29fa617b8d
+     https://www.jianshu.com/p/2b29fa617b8d
 
 十二、JNI中java和C字符串的相互转换（防止乱码）
 
@@ -185,15 +185,16 @@ https://www.jianshu.com/p/2b29fa617b8d
         return res;
     }
     
-    十三、图像处理Android-GPUImage-Plus
+  十三、图像处理Android-GPUImage-Plus
     
-    十四、多个recycleview嵌套时宽度显示不全，重新设置一次LayoutParams.MATCH_PARENT即可；多个Recycleview嵌套，第一个item不置顶，只需在recycleview的上层布局或根布局设置android:focusInTouchMode="true"即可
+  十四、多个recycleview嵌套时宽度显示不全，重新设置一次LayoutParams.MATCH_PARENT即可；多个Recycleview嵌套，第一个item不置顶，只需在recycleview的上层布局或根布局设置android:focusInTouchMode="true"即可
     
-    十五、learnopencv一个好的C++ and python Excmples
+  十五、learnopencv一个好的C++ and python Excmples
     
-    十六、C++小demo:github项目名称cpp1x-study-resource
+  十六、C++小demo:github项目名称cpp1x-study-resource
 
-    十七、自定义progressbar的背景
+  十七、自定义progressbar的背景
+  
     <?xml version="1.0" encoding="utf-8"?>
     <layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
     <item android:id="@android:id/background">
@@ -293,11 +294,11 @@ https://www.jianshu.com/p/2b29fa617b8d
  
  十九、22个值得收藏的android开源代码-UI篇
  
- http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2014/1020/1808.html
+     http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2014/1020/1808.html
  
  二十、安卓组件化开发
  
- https://www.jianshu.com/p/bfd5afed498f
+     https://www.jianshu.com/p/bfd5afed498f
 
 二十一、使用ImmersionBar后如何让软键盘弹出时将布局顶起来：
 
@@ -307,4 +308,8 @@ https://www.jianshu.com/p/2b29fa617b8d
                 
 二十二、《安卓-深入浅出MVVM教程》应用篇
 
-https://mp.weixin.qq.com/s/TXJ-cZbUxIKhe89YjyxGZw?
+     https://mp.weixin.qq.com/s/TXJ-cZbUxIKhe89YjyxGZw?
+     
+二十三、android studio不识别C++代码：
+
+     点击File->Link C++ Project with Gradle
