@@ -317,3 +317,9 @@ https://github.com/goldze/MVVMHabit
 二十五、一个老吊的android和Flutter的学习笔记，包含bat大厂面试题记录
 
      https://github.com/AweiLoveAndroid
+     
+二十六、国内镜像仓库
+     
+     maven { url'http://maven.aliyun.com/nexus/content/repositories/google' }
+     maven { url'http://maven.aliyun.com/nexus/content/groups/public/' }
+     maven { url'http://maven.aliyun.com/nexus/content/repositories/jcenter'}
