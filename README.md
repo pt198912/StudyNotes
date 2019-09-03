@@ -323,3 +323,7 @@ https://github.com/goldze/MVVMHabit
      maven { url'http://maven.aliyun.com/nexus/content/repositories/google' }
      maven { url'http://maven.aliyun.com/nexus/content/groups/public/' }
      maven { url'http://maven.aliyun.com/nexus/content/repositories/jcenter'}
+     
+二十七、蚂蚁免费VPN
+
+     https://invited.antss020.com/aff/zBFH
