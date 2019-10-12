@@ -327,3 +327,8 @@ https://github.com/goldze/MVVMHabit
 二十七、蚂蚁免费VPN
 
      https://invited.antss020.com/aff/zBFH
+     
+     
+二十八、Android Hook 机制之简单实战
+     
+     https://www.jianshu.com/p/c431ad21f071
