@@ -332,3 +332,7 @@ https://github.com/goldze/MVVMHabit
 二十八、Android Hook 机制之简单实战
      
      https://www.jianshu.com/p/c431ad21f071
+
+二十九、Android 热更新简单实现
+
+     https://www.jianshu.com/p/03b1ac6e964e
