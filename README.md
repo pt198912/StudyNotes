@@ -337,6 +337,10 @@ https://github.com/goldze/MVVMHabit
 
      https://www.jianshu.com/p/03b1ac6e964e
 
-三十、Android目前最新的适配策略
+三十、Android目前最新的适配策略:
 
+     1.今日头条适配方案
      https://www.jianshu.com/p/cd373f529bea
+     
+     2.smallest width适配方案
+     https://github.com/ladingwu/dimens_sw
