@@ -336,3 +336,7 @@ https://github.com/goldze/MVVMHabit
 二十九、Android 热更新简单实现
 
      https://www.jianshu.com/p/03b1ac6e964e
+
+三十、Android目前最新的适配策略
+
+     https://www.jianshu.com/p/cd373f529bea
