@@ -148,7 +148,7 @@ https://github.com/goldze/MVVMHabit
 
 十一、android studio中ndk的配置（javah,ndk-build的配置）
 
-     https://www.jianshu.com/p/2b29fa617b8d
+   https://www.jianshu.com/p/2b29fa617b8d
 
 十二、JNI中java和C字符串的相互转换（防止乱码）
 
@@ -290,11 +290,11 @@ https://github.com/goldze/MVVMHabit
  
  十九、22个值得收藏的android开源代码-UI篇
  
-     http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2014/1020/1808.html
+   http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2014/1020/1808.html
  
  二十、安卓组件化开发
  
-     https://www.jianshu.com/p/bfd5afed498f
+   https://www.jianshu.com/p/bfd5afed498f
 
 二十一、使用ImmersionBar后如何让软键盘弹出时将布局顶起来：
 
@@ -304,7 +304,7 @@ https://github.com/goldze/MVVMHabit
                 
 二十二、《安卓-深入浅出MVVM教程》应用篇
 
-     https://mp.weixin.qq.com/s/TXJ-cZbUxIKhe89YjyxGZw?
+   https://mp.weixin.qq.com/s/TXJ-cZbUxIKhe89YjyxGZw?
      
 二十三、android studio不识别C++代码：
 
@@ -316,7 +316,7 @@ https://github.com/goldze/MVVMHabit
      
 二十五、一个老吊的android和Flutter的学习笔记，包含bat大厂面试题记录
 
-     https://github.com/AweiLoveAndroid
+   https://github.com/AweiLoveAndroid
      
 二十六、国内镜像仓库
      
@@ -326,24 +326,24 @@ https://github.com/goldze/MVVMHabit
      
 二十七、蚂蚁免费VPN
 
-     https://invited.antss020.com/aff/zBFH
+   https://invited.antss020.com/aff/zBFH
      
      
 二十八、Android Hook 机制之简单实战
      
-     https://www.jianshu.com/p/c431ad21f071
+   https://www.jianshu.com/p/c431ad21f071
 
 二十九、Android 热更新简单实现
 
-     https://www.jianshu.com/p/03b1ac6e964e
+   https://www.jianshu.com/p/03b1ac6e964e
 
 三十、Android目前最新的适配策略:
 
      1.今日头条适配方案
-     https://www.jianshu.com/p/cd373f529bea
+   https://www.jianshu.com/p/cd373f529bea
      
      2.smallest width适配方案
-     https://github.com/ladingwu/dimens_sw
+   https://github.com/ladingwu/dimens_sw
 
 三十一、前端常用的Vscode插件
      https://segmentfault.com/a/1190000006697219
