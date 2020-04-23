@@ -351,3 +351,6 @@ https://github.com/goldze/MVVMHabit
      
 三十二、安卓组件化开发的简单应用
      https://www.cnblogs.com/milovetingting/p/10451195.html
+     
+三十三、vscode配置vue环境
+     https://segmentfault.com/a/1190000019203847
