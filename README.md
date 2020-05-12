@@ -359,3 +359,12 @@ https://github.com/goldze/MVVMHabit
    
      2.vscode的h5相关插件
    https://segmentfault.com/a/1190000019203847
+   
+三十四、seekbar添加thumb出现不透明区域 
+
+   seekbar更改了thumb后在真机出现了如下不透明区域 
+   
+     解决方法：在seekbar的布局文件里添加一行代码
+
+     android:splitTrack="false"
+   
