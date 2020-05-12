@@ -368,3 +368,6 @@ https://github.com/goldze/MVVMHabit
 
      android:splitTrack="false"
    
+三十五、去掉TabLayout下的阴影，AppBarLayout下的阴影
+
+     只需要对AppBarLayout设置一个属性： app:elevation=”0dp”
