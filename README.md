@@ -320,9 +320,14 @@ https://github.com/goldze/MVVMHabit
      
 二十六、国内镜像仓库
      
-     maven { url'http://maven.aliyun.com/nexus/content/repositories/google' }
-     maven { url'http://maven.aliyun.com/nexus/content/groups/public/' }
-     maven { url'http://maven.aliyun.com/nexus/content/repositories/jcenter'}
+
+     https://maven.aliyun.com/repository/google
+
+     https://maven.aliyun.com/repository/jcenter
+
+     http://maven.aliyun.com/nexus/content/groups/public
+
+     http://s3.amazonaws.com/fabric-artifacts/public (fabric国内镜像)
      
 二十七、蚂蚁免费VPN
 
