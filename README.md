@@ -376,3 +376,25 @@ https://github.com/goldze/MVVMHabit
 三十五、去掉TabLayout下的阴影，AppBarLayout下的阴影
 
      只需要对AppBarLayout设置一个属性： app:elevation=”0dp”
+
+三十六、RecyclerView 闪屏问题
+
+     经过百度，得知应用是recyclerview的动画效果，但是我没有添加默认动画，所以问题点，就不是这个了。
+
+     其实是recylerview没有给每个item设置一个明确的id，这会导致不断刷新情况下同样序号返回的子控件是不一样的，这就会造成不知道把焦点给那个控件。但是如果用了 notifyInsert 不会出现这样的问题。如果用了 notifyInsert 那么 notifyItemRangeInserted 的作用就发挥不出来。
+
+     Google 结果，在Adapter 初始化的时候，加上
+
+     public AndroidAdapter(Context context, int type) {
+            setHasStableIds(true);
+            mResults = new ArrayList<>();
+            mContext = context;
+            mLayout = type;
+     }
+     结果虽然不闪屏了，但是某些Item会有重复的。
+     原来还要再复写Adater的一个方法，返回唯一的id
+     @Override
+     public long getItemId(int position) {
+           return position;
+     }
+     ok,完美解决
