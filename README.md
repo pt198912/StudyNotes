@@ -398,3 +398,7 @@ https://github.com/goldze/MVVMHabit
            return position;
      }
      ok,完美解决
+     
+ 三十七、记 Mac 上安装 openCv 的经历（巨坑）
+ 
+     https://www.jianshu.com/p/f8a8154e98b6
