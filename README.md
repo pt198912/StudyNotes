@@ -402,3 +402,7 @@ https://github.com/goldze/MVVMHabit
  三十七、记 Mac 上安装 openCv 的经历（巨坑）
  
  https://www.jianshu.com/p/f8a8154e98b6
+ 
+ 三十八、使用Android Studio开发FFmpeg的正确姿势
+ 
+ https://www.jianshu.com/p/0a7f3175c1b9
